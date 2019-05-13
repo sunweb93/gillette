@@ -1,0 +1,34 @@
+#wrap{width: 100%; height: 100%; background-color: #ffa	;}
+
+/*============conBox===========================*/
+.m_wrap{width: 100%; height: auto;}
+
+.top_btn{display: none; position: fixed; bottom: 20px; right: 10px; z-index: 100; width: 45px; height: 45px; background-color: rgba(23,23,23,0.8); border-radius: 2px}
+.top_btn>button{width: 100%; height: 100%;  color:#fff; text-transform: uppercase;}
+
+.title{width: 100%; height: auto; background-color: #171717;;text-transform: uppercase; color:#fff; text-align: center; font-weight: bold; letter-spacing: 2px;}
+#conBox03 .title{background-color: #5cb4d0;}
+.title a{color:#f0f1f2;}
+
+.s_wrap{background-color: #f0f1f2;}
+.product{position: relative; float: left; background-color: #fff; background-size: auto 90%; background-repeat: no-repeat; background-position: 80% 80%;
+  box-shadow: 0.3rem 0.3rem 1rem rgba(0,0,0,0.2);}
+.blade{background-size: 70%; background-position: 50% 30%;}
+.product a{display: block; width: 100%; height: 100%;}
+.product dl{position: absolute; bottom: 0; left: 0; box-sizing: border-box; background-color: rgba(238,238,238,0.95); transition: all 700ms ease;}
+.product dt{text-transform: capitalize; font-weight: 600; line-height: 1.6;}
+.product dd:nth-of-type(1){display: none;}
+.product dd:nth-of-type(2){background-image: url("../../../../img/gillette/html_img/product/star_5.svg");  background-size:contain; background-repeat: no-repeat; background-position: left;}
+.product dd:nth-of-type(2) p {width: 100%; height: 100%; text-indent: 4.5rem; }
+/*.product dd:nth-of-type(2){position: absolute;}*/
+
+
+.product a:focus{color:#000; outline: 2px solid #333}
+.product a:hover{color:#000;}
+
+.more{float: right; width: auto; height: auto;}
+.more a{display: inline-block; z-index: 10; position: relative; width: auto; height: auto; color: #fff; background-color: #ee6600; transition: all 700ms ease}
+.more p{display: inline-block;}
+  
+}
+

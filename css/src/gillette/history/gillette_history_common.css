@@ -1,0 +1,105 @@
+/*  gillette_hisrory_common.css  */
+
+#wrap{width: 100%; height: auto;}
+  
+
+#indicator{position: absolute; z-index: 500; top: 290px; left: 50%; width: 100%; transform: translateX(-50%);height: 30px;}
+.indi_wrap{margin: auto; width: calc(100% - 60px); height: 100%; overflow: hidden;}
+#indicator ul{width: 280%; height: 100%; background-color: #fff; border: 1px solid #171717; box-sizing: border-box; }
+#indicator li{float: left; width: calc(100%/14); border-right: 1px solid #171717; box-sizing: border-box; }
+#indicator li:nth-child(1){border-left: 1px solid #171717;}
+#indicator a{display: block; width: 100%; height: 100%; font-weight: 600;line-height: 30px; text-align: center; text-transform: uppercase;}
+
+#indicator li.active a{background-color: #171717; color:#fff; }
+.button{position: absolute; top: 0; left: 0; z-index: 100; width: 100%; height: 0;}
+.button button{width: 31px; height: 30px; box-sizing: border-box; border: 1px solid  #171717; background-color: #fff;}
+.button i{width: 100%; height: 100%; font-size: 20px; color:#000; line-height: 30px;}
+.button button:hover{background-color: rgba(0,0,0,0.8);}
+.button button:hover>i{color:#fff;}
+.n_btn{float: right}
+.p_btn{float: left;}
+
+/* common */
+#conBox{position: relative; padding-bottom: 40px; box-sizing: border-box;}
+.v_line{position: absolute; left: 50%; transform: translateX(-50%); background-color: #171717; }
+.history{position: relative;}
+.history dl{position: absolute; color:#0e0e0e;}
+.history dt{font-weight: 600;}
+.num_box{position: absolute; background-repeat: no-repeat; background-size: contain; background-position: center;}
+.pic_box{position: absolute; background-repeat: no-repeat; background-position: top left; background-size: contain; }
+
+/*.history{background-image: url("../../../../img/gillette/html_img/history/history_bg_03.png"); background-repeat: repeat-y; background-size: cover; background-position: center;}*/
+.history_01{background-image: url("../../../../img/gillette/html_img/history/history_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: center;}
+
+#conBox .history_01 dl{left: 0; top: 50%; transform: translateY(-50%); width: 70%; height: auto; text-align: center;}
+#conBox .history_01 dl{left: 0; right: auto; width: 70%;}
+#conBox .history_01 dt{margin-bottom: 15px;}
+#conBox .history_01 dd{margin-bottom: 10px;}
+#conBox .history_01 dd:nth-child(3){font-weight: 500;}
+#conBox .history_01 dd:last-child{width: 100%; height: 30px; background-image: url("../../../../img/gillette/html_img/history/signature.png"); background-repeat: no-repeat; background-size: auto 100%; background-position: center;}
+
+
+
+
+
+.history:nth-of-type(3) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_02_tab.png");}
+.history:nth-of-type(4) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_03_tab.png");}
+.history:nth-of-type(5) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_04_tab.png");}
+.history:nth-of-type(6) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_05_tab.png");}
+.history:nth-of-type(7) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_06_tab.png");}
+.history:nth-of-type(8) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_07_tab.png");}
+.history:nth-of-type(9) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_08_tab.png");}
+.history:nth-of-type(10) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_09_tab.png");}
+.history:nth-of-type(11) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_10_tab.png");}
+.history:nth-of-type(12) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_11_tab.png");}
+.history:nth-of-type(13) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_12_tab.png");}
+.history:nth-of-type(14) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_13_tab.png");}
+.history:nth-of-type(15) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_14_tab.png");}
+
+.history:nth-of-type(3) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_02.png");}
+.history:nth-of-type(4) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_03.png");}
+.history:nth-of-type(5) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_04.png");}
+.history:nth-of-type(6) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_05.png");}
+.history:nth-of-type(7) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_06.png");}
+.history:nth-of-type(8) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_07.png");}
+.history:nth-of-type(9) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_08.png");}
+.history:nth-of-type(10) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_09.png");}
+.history:nth-of-type(11) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_10.png");}
+.history:nth-of-type(12) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_11.png");}
+.history:nth-of-type(13) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_12.png");}
+.history:nth-of-type(14) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_13.png");}
+.history:nth-of-type(15) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_14.png");}
+.history:nth-of-type(16) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_15.png");}
+.history:nth-of-type(17) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_16.png");}
+
+
+@media screen and (min-width: 801px) {
+.history:nth-of-type(3) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_02_pc.png");}
+.history:nth-of-type(4) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_03_pc.png");}
+.history:nth-of-type(5) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_04_pc.png");}
+.history:nth-of-type(6) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_05_pc.png");}
+.history:nth-of-type(7) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_06_pc.png");}
+.history:nth-of-type(8) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_07_pc.png");}
+.history:nth-of-type(9) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_08_pc.png");}
+.history:nth-of-type(10) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_09_pc.png");}
+.history:nth-of-type(11) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_10_pc.png");}
+.history:nth-of-type(12) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_11_pc.png");}
+.history:nth-of-type(13) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_12_pc.png");}
+.history:nth-of-type(14) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_13_pc.png");}
+.history:nth-of-type(15) .pic_box{background-image: url("../../../../img/gillette/html_img/history/pic_14_pc.png");}
+
+.history:nth-of-type(3) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_02_pc.png");}
+.history:nth-of-type(4) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_03_pc.png");}
+.history:nth-of-type(5) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_04_pc.png");}
+.history:nth-of-type(6) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_05_pc.png");}
+.history:nth-of-type(7) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_06_pc.png");}
+.history:nth-of-type(8) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_07_pc.png");}
+.history:nth-of-type(9) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_08_pc.png");}
+.history:nth-of-type(10) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_09_pc.png");}
+.history:nth-of-type(11) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_10_pc.png");}
+.history:nth-of-type(12) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_11_pc.png");}
+.history:nth-of-type(13) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_12_pc.png");}
+.history:nth-of-type(14) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_13_pc.png");}
+.history:nth-of-type(15) .num_box{background-image: url("../../../../img/gillette/html_img/history/num_14_pc.png");}
+
+}
